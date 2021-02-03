@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./scripts/app.js" defer></script>
   <title>John Temple</title>
 </head>
 <body>
@@ -32,31 +36,34 @@
       Hi, i am <strong>John Temple</strong>
     </h1>
     <p class="section__subtitle section__subtitle--intro">Full Stack Engineer</p>
-    <img src="" alt="intro">
+    <img src="./css/images/pexels-cottonbro-5474031.jpg"  height="300" alt="intro" class='intro__img'>
   </section>
 
   <!-- Skills -->
   <section class="my-skills" id="skills">
-    <h2 class='my-skills__header my-skills__header--skills'>Abilities</h2>
-    <div class="skill">
+    <h2 class='section__title section__title--skills'>Abilities</h2>
+    <div class="skills">
+      <div class="skill">
       <h3>Front-End</h3>
-      <p>Lorem Ipsum is simply dummy</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
     <div class="skill">
       <h3>Full-Stack</h3>
-      <p>Lorem Ipsum is simply dummy</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
     <div class="skill">
       <h3>React</h3>
-      <p>Lorem Ipsum is simply dummy</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.y</p>
     </div>
-    <a href="#projects">My Projects</a>
+    </div>
+    
+    <a class='btn'href="#projects">My Projects</a>
   </section>
 
   <!-- About Me -->
   <section class="about" id="about">
-    <h2 class="about__heading about__heading--about">Who am i</h2>
-    <p class="about__par about__par--about">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi veniam, unde harum quaerat aliquam, asperiores illo, numquam saepe dignissimos pariatur fugit assumenda quisquam accusantium perspiciatis et eveniet nihil excepturi officiis!</p>
+    <h2 class="section__title section__title--about">Who am i</h2>
+    <p class="section__subtitle section__subtitle--about">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi veniam, unde harum quaerat aliquam, asperiores illo, numquam saepe dignissimos pariatur fugit assumenda quisquam accusantium perspiciatis et eveniet nihil excepturi officiis!</p>
     <div class="about__body">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, in blanditiis porro quas sapiente ipsam iste illum amet minus dicta beatae voluptatibus culpa quidem consequuntur iusto asperiores nostrum aut veritatis.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, in blanditiis porro quas sapiente ipsam iste illum amet minus dicta beatae voluptatibus culpa quidem consequuntur iusto asperiores nostrum aut veritatis.</p>
@@ -66,36 +73,35 @@
 
   <!-- Projects -->
   <section class="projects" id="projects">
-    <h2 class="projects__title">My Projects</h2>
-    <p class="projects__par">Projects</p>
+    <h2 class="section__title section__title--projects">My Projects</h2>
+    <p class="section__subtitle section__subtitle--projects">Projects</p>
 
     <div class="portfolio">
-      <a href="#" class="portfolio__item">
-        <img src="#" alt="" class="portfolio__imgå">
+      <a href="#"  class="portfolio__item">
+        <img src="./css/images/spotme.png" height=300px alt="" class="portfolio__img">
       </a>
     </div>
     <div class="portfolio">
       <a href="#" class="portfolio__item">
-        <img src="#" alt="" class="portfolio__imgå">
+        <img src="./css/images/tamagotchi.png" height=300px alt="" class="portfolio__img">
       </a>
     </div>
     <div class="portfolio">
       <a href="#" class="portfolio__item">
-        <img src="#" alt="" class="portfolio__imgå">
-      </a>
-    </div>
-    <div class="portfolio">
-      <a href="#" class="portfolio__item">
-        <img src="#" alt="" class="portfolio__imgå">
+        <img src="./css/images/bakes.png" height=300px alt="" class="portfolio__img">
       </a>
     </div>
   </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+
+  </section>
   <!-- Footer -->
   <div class="footer">
-    <a href="" class="footer__link">Email</a>
+    <!-- <a href="" class="footer__link">Email</a> -->
     <ul class="social_list">
       <li class="social_list__item"><a href="">Instagram</a></li>
-      <li class="social_list__item"><a href="">Facebooke</a></li>
       <li class="social_list__item"><a href="">LinkedIn</a></li>
       <li class="social_list__item"><a href="">Github</a></li>
     </ul>
