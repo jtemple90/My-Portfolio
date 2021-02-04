@@ -272,6 +272,10 @@ header {
 
 .intro__img {
   box-shadow: var(--bs);
+  width: 500px;
+  height: auto;
+  transition: fade-in .25s;
+  
 }
 .section__subtitle--intro {
   display: inline-block;
@@ -289,6 +293,7 @@ header {
   .intro__img {
     grid-area: img; 
     min-width: 300px;
+    min-height: 300px;
     position: relative;
     z-index: 2;
   }
