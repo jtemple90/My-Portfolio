@@ -1,116 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-  <script src="./scripts/app.js" defer></script>
-  <title>John Temple</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./scripts/app.js" defer></script>
+    <title>John Temple</title>
 </head>
+
 <body>
 
-  <!-- Nav -->
-  <header>
-    <div class="logo">
-      <i class="fas fa-cog"></i>
-    </div>
-    <button class="nav-toggle" aria-label="Toggle navigation">
+    <!-- Nav -->
+    <header>
+        <div class="logo">
+            <h1 class="logo">
+                JTemple
+            </h1>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
       <span class='hamburger'></span>
     </button>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-        <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> -->
-      </ul>
-    </nav>
-  </header>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> -->
+            </ul>
+        </nav>
+    </header>
 
-  <!-- Hero/Landing -->
-  <section class="intro" id='home'>
-    <h1 class="section__title section__title--intro">
-      Hi, i'm <strong>John Temple</strong>
-    </h1>
-    <p class="section__subtitle section__subtitle--intro">Full Stack Developer</p>
-    <img src="./css/images/portfolio img.png"  height="300" alt="intro" class='intro__img'>
-  </section>
+    <!-- Hero/Landing -->
+    <section class="intro" id='home'>
+        <h1 class="section__title section__title--intro">
+            Hi, i'm <strong>John Temple</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Software Developer</p>
+        <img src="./css/images/portfolio img.png" height="300" alt="intro" class='intro__img'>
+    </section>
 
-  <!-- Skills -->
-  <section class="my-skills" id="skills">
-    <h2 class='section__title section__title--skills'>Skills</h2>
-    <div class="skills">
-      <div class="skill">
-      <h3>Front-End</h3>
-      <ul class="section__body section__body--skills">
-        <li class="section__body--skill">HTML/CSS</li>
-        <li class="section__body--skill">JavaScript</li>
-        <li class="section__body--skill">React</li>
-        <li class="section__body--skill">jQuery</li>
-        <li class="section__body--skill">Bootstrap</li>
+    <!-- Skills -->
+    <section class="my-skills" id="skills">
+        <h2 class='section__title section__title--skills'>Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>Front-End</h3>
+                <ul class="section__body section__body--skills">
+                    <li class="section__body--skill">HTML/CSS</li>
+                    <li class="section__body--skill">JavaScript</li>
+                    <li class="section__body--skill">React</li>
+                    <li class="section__body--skill">jQuery</li>
+                    <li class="section__body--skill">Bootstrap</li>
 
-      </ul>
-    </div>
-    <div class="skill">
-      <h3>Back-End</h3>
-      <ul class="section__body section__body--skills">
-        <li class="section__body--skill">Express.js</li>
-        <li class="section__body--skill">Node.js</li>
-        <li class="section__body--skill">MongoDb</li>
-        <li class="section__body--skill">PostgreSQl</li>
-        <li class="section__body--skill">Python</li>
-        <li class="section__body--skill">Django</li>
-      </ul>
-    </div>
-    <div class="skill">
-      <h3>Other</h3>
-      <ul class="section__body section__body--skills">
-        <li class="section__body--skill">RESTful APIs</li>
-        <li class="section__body--skill">Github</li>
-        <li class="section__body--skill">Heroku</li>
-        <li class="section__body--skill">Git</li>
-      </ul>
-    </div>
-    </div>
-    
-    <a class='btn'href="#projects">My Projects</a>
-  </section>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Back-End</h3>
+                <ul class="section__body section__body--skills">
+                    <li class="section__body--skill">Express.js</li>
+                    <li class="section__body--skill">Node.js</li>
+                    <li class="section__body--skill">MongoDb</li>
+                    <li class="section__body--skill">PostgreSQl</li>
+                    <li class="section__body--skill">Python</li>
+                    <li class="section__body--skill">Django</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Other</h3>
+                <ul class="section__body section__body--skills">
+                    <li class="section__body--skill">RESTful APIs</li>
+                    <li class="section__body--skill">Github</li>
+                    <li class="section__body--skill">Heroku</li>
+                    <li class="section__body--skill">Git</li>
+                </ul>
+            </div>
+        </div>
 
-  <!-- About Me -->
-  <section class="about-me" id="about">
-    <h2 class="section__title section__title--about">Who am I?</h2>
-    <p class="section__subtitle section__subtitle--about">Software Dev based out of PHX</p>
-    <div class="about-me__body">
-      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, in blanditiis porro quas sapiente ipsam iste illum amet minus dicta beatae voluptatibus culpa quidem consequuntur iusto asperiores nostrum aut veritatis.</p> -->
-      <p>I am a Full Stack Software Engineer who specializes in react development with a passion for problem solving. My background in customer service allows me to connect with my clients to deliver a dynamic and seamless product that exceeds their expectations.</p>
-    </div>
-    <img class='about-me__img'src="./css/images/vector.png" alt="about">
-  </section> 
+        <a class='btn' href="#projects">My Projects</a>
+    </section>
 
-  <!-- Projects -->
-  <section class="projects" id="projects">
-    <h2 class="section__title section__title--projects">My Projects</h2>
-    <p class="section__subtitle section__subtitle--projects">A selection of projects to show the growth of my abilities</p>
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who am I?</h2>
+        <p class="section__subtitle section__subtitle--about">Software Dev based out of PHX</p>
+        <div class="about-me__body">
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, in blanditiis porro quas sapiente ipsam iste illum amet minus dicta beatae voluptatibus culpa quidem consequuntur iusto asperiores nostrum aut veritatis.</p> -->
+            <p>I am a Full Stack Software Engineer who specializes in react development with a passion for problem solving. My background in customer service allows me to connect with my clients to deliver a dynamic and seamless product that exceeds their
+                expectations.
+            </p>
+        </div>
+        <img class='about-me__img' src="./css/images/vector.png" alt="about">
+    </section>
 
-    <div class="portfolio">
-      <a href="https://github.com/jtemple90/SpotMe"  class="portfolio__item">
-        <img src="./css/images/spotme.png" height=300px alt="" class="portfolio__img">
-      </a>
-      <a href="https://jtemple90.github.io/Tamagotchi-game/" class="portfolio__item">
-        <img src="./css/images/tamagotchi.png" height=300px alt="" class="portfolio__img">
-      </a>
-      <a href="https://salty-scrubland-56413.herokuapp.com/" class="portfolio__item">
-        <img src="./css/images/bakes.png" height=300px alt="" class="portfolio__img">
-      </a>
-    </div>
-  </section>
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <h2 class="section__title section__title--projects">My Projects</h2>
+        <p class="section__subtitle section__subtitle--projects">A selection of projects to show the growth of my abilities</p>
 
-  <!-- Contact -->
-  <!-- <section class="contact" id="contact">
+        <div class="portfolio">
+            <a href="https://github.com/jtemple90/SpotMe" class="portfolio__item">
+                <img src="./css/images/spotme.png" height=300px alt="" class="portfolio__img">
+            </a>
+            <a href="https://jtemple90.github.io/Tamagotchi-game/" class="portfolio__item">
+                <img src="./css/images/tamagotchi.png" height=300px alt="" class="portfolio__img">
+            </a>
+            <a href="https://salty-scrubland-56413.herokuapp.com/" class="portfolio__item">
+                <img src="./css/images/bakes.png" height=300px alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <!-- <section class="contact" id="contact">
     <form class='contact__form' action="">
       <h2 class="section__title section__title--contact">Contact Me</h2>
       <div class="section__form">
@@ -126,14 +132,15 @@
     </form>
   </section> -->
 
-  <!-- Footer -->
-  <footer class="footer">
-    <a href="" class="footer__link">jdtemple90@gmail.com</a>
-    <ul class="social_list">
-      <li class="social_list__item"><a class='social_list__link' href="https://www.linkedin.com/in/john-temple-dev/"><i class="fab fa-linkedin-in"></i></a></li>
-      <li class="social_list__item"><a class='social_list__link' href=""><i class="fab fa-instagram"></i></a></li>
-      <li class="social_list__item"><a class='social_list__link' href="https://github.com/jtemple90"><i class="fab fa-github"></i></a></li>
-    </ul>
-  </footer>
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="" class="footer__link">jdtemple90@gmail.com</a>
+        <ul class="social_list">
+            <li class="social_list__item"><a class='social_list__link' href="https://www.linkedin.com/in/john-temple-dev/"><i class="fab fa-linkedin-in"></i></a></li>
+            <li class="social_list__item"><a class='social_list__link' href=""><i class="fab fa-instagram"></i></a></li>
+            <li class="social_list__item"><a class='social_list__link' href="https://github.com/jtemple90"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </footer>
 </body>
-</html> 
+
+</html>
